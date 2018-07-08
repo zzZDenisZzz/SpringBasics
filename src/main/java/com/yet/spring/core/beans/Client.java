@@ -1,3 +1,5 @@
+package com.yet.spring.core.beans;
+
 public class Client {
         private String id;
         private String fullName;
@@ -7,7 +9,11 @@ public class Client {
             this.fullName = fullName;
         }
 
-        public String getId() {
+    public Client() {
+
+    }
+
+    public String getId() {
             return id;
         }
 
